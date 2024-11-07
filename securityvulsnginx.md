@@ -1,14 +1,17 @@
 
 **Issue**
 
+
 Web Server HTTP Header Information Disclosure:
 Description
-The HTTP headers sent by the remote web server disclose information that can aid an attacker, such as the server version and languages used by the web server.
+The HTTP headers sent by the remote web server disclose information that can aid an attacker, such as the server version and languages used by theweb server.
 Solution
 Modify the HTTP headers of the web server to not disclose detailed information about the underlying web server.
 Output
 Server type : NGINX
+
 Additional data : X-Powered-By: ASP.NET
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 We have observed deprecated or unsupported versions of TLS. We have begun encouraging admins to begin transitioning to the cipher suites listed below. These are compatible with all browsers from the last five years.
